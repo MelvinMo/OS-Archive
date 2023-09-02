@@ -7,3 +7,6 @@ I studied and analyzed the implementation of system calls in the xv6 operating s
 ## Project 2
 
 I developed a loadable kernel module (LKM) in C that implements a banking application. The LKM allows opening customer accounts, checking balances, transferring funds between accounts, and closing accounts. To enable these financial transactions, the LKM implements core file operations like open, read, write, and close. I created device nodes using mknod to associate the LKM with account file descriptors. I wrote test applications in C and Python that perform banking tasks by exercising the LKM API. By loading and unloading the module, I verified that my banking LKM integrated correctly with the Linux kernel.
+<p align="center">
+  <img src="https://github.com/MelvinMo/OS-Archive/blob/main/Project%202/project2.jpg" alt="IMG" />
+</p>
