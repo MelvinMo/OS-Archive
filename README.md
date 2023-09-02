@@ -1,5 +1,5 @@
 # OS-Archive
-The repository contains the code and related files of two final projects for my undergrad operating system course.
+The repository contains the codes and related files of two final projects for my undergrad operating system course.
 ## Project 1
 
 I studied and analyzed the implementation of system calls in the xv6 operating system code. I added a new pssyscall() system call to xv6 to allow retrieving process information. I also modified the ps command in xv6 to use the new pssyscall() to display process status information. To test my new system call and command, I utilized the xv6 environment with QEMU virtualization. My test results demonstrated that pssyscall() successfully returned process data to the ps command for display.
